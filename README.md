@@ -8,7 +8,11 @@ Highlights:
 - 🚀 Online user status
 - 👌 Global state management with Zustand
 - 🐞 Error handling both on the server and on the client
+<<<<<<< HEAD
 
+=======
+- 
+>>>>>>> ffcfe9fd3f61b6185a053a85b2ce29a50735391d
 ### Build the app
 
 ```shell
