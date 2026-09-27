@@ -25,6 +25,13 @@ app.use(
   })
 );
 
+// Health check
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Sandesh backend is running",
+  });
+});
+
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
